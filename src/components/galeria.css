@@ -1,0 +1,31 @@
+.galeria {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.galeria .kepdiv {
+  flex: 1 0 30%;
+  min-width: 250px;
+}
+
+.galeria .kep {
+  padding: 5px;
+  border: 1px solid rgb(140, 137, 137);
+  border-radius: 8px;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+}
+.galeria img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block; 
+}
+
+.aktiv {
+    background-color: rgb(162, 162, 160);
+    border-radius:10px;
+}

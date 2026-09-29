@@ -1,0 +1,32 @@
+.nagykepdiv {
+
+display:grid;
+grid-template-columns: auto 1fr auto;
+align-items: center;
+}
+.bal, .jobb {
+    color:brown;
+    cursor:grab;
+    background-color:white;
+    border:none;
+    font-size: 20px;
+
+}
+.bal:hover, .jobb:hover {
+    color:rgb(212, 22, 22);
+ 
+}
+
+.nagykepdiv .kep {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  aspect-ratio: 3/2;
+  overflow: hidden;
+}
+.nagykepdiv img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  display: block; 
+}
