@@ -16,6 +16,7 @@ describe('KisKep komponens', () => {
 
         // Ellenőrizzük, hogy a kép jelen van-e a DOM-ban az alt szövege alapján
         const imgElem = screen.getByAltText('Teszt kép leírás')
+    
         expect(imgElem).toBeInTheDocument()
         expect(imgElem).toHaveAttribute('src', 'kepek/kep1.webp')
     })
