@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './nagykep.css'
 import type { KepTipus } from '../adatok'
 interface NagyKepProps {

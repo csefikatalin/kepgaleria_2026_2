@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './galeria.css'
 import KisKep from './KisKep'
 import type { KepTipus } from '../adatok'

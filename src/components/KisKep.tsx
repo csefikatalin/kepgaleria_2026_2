@@ -1,4 +1,4 @@
-import React from 'react'
+
 import type { KepTipus } from '../adatok'
 interface KisKepProps {
     kepem: KepTipus,
