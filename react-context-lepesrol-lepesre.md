@@ -1,14 +1,3 @@
-# Képgaléria 
-
-## Használt ismeretek
-
-- komponens
-- props
-- state
-- eseménykezelés
-- feltételes értékadás 
-
-
 # React Context és Provider lépésről lépésre
 
 Ebben az útmutatóban egy képgaléria közös állapotát tesszük elérhetővé több komponens számára a React Context API segítségével.
